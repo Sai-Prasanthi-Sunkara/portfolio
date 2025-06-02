@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunkara Sai's Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="portfolio .css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="hero-section">
+    <div class="hero-content">
+      <h1 class="animate-text">Sunkara Sai</h1>
+      <p class="tagline">Full Stack Developer & Innovation Enthusiast</p>
+      <div class="social-links">
+        <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/sunkara-sai-prasanthi-23b9aa328/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:sunkarasai@example.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <nav class="modern-nav">
+      <ul>
+        <li><a href="#about" class="nav-link">About Me</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#thoughts" class="nav-link">Tech Blog</a></li>
+        <li><a href="#certificates" class="nav-link">Achievements</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="section-container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Hello! I'm a passionate Full Stack Developer with a keen interest in building innovative web solutions. Recently completed an intensive Full Stack Development Workshop at <strong>Innomatics Research Labs</strong>, where I honed my skills in modern web technologies.</p>
+          <div class="tech-stack">
+            <h3>Tech Stack</h3>
+            <div class="tech-icons">
+              <i class="fab fa-html5" title="HTML5"></i>
+              <i class="fab fa-css3-alt" title="CSS3"></i>
+              <i class="fab fa-js" title="JavaScript"></i>
+              <i class="fab fa-react" title="React"></i>
+              <i class="fab fa-node" title="Node.js"></i>
+              <i class="fab fa-python" title="Python"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="kisaan-vaani.jpg" alt="Kisaan Vaani Project">
+          </div>
+          <h3>Kisaan Vaani</h3>
+          <p>An innovative farming assistance platform that leverages real-time data analytics to provide actionable insights for farmers. Built with React, Node.js, and MongoDB.</p>
+          <div class="project-links">
+            <a href="#" class="btn-demo"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            <a href="#" class="btn-code"><i class="fab fa-github"></i> View Code</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="event-app.jpg" alt="Event App Project">
+          </div>
+          <h3>Event App</h3>
+          <p>A comprehensive event management solution featuring real-time updates, ticket management, and interactive scheduling. Built with MERN stack.</p>
+          <div class="project-links">
+            <a href="#" class="btn-demo"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            <a href="#" class="btn-code"><i class="fab fa-github"></i> View Code</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="thoughts" class="section-container">
+      <h2 class="section-title">Technical Blog</h2>
+      <div class="blog-grid">
+        <article class="blog-card">
+          <h3>Building Secure Authentication Systems</h3>
+          <div class="blog-meta">
+            <span><i class="fas fa-calendar"></i> May 2025</span>
+            <span><i class="fas fa-tags"></i> Security, JWT</span>
+          </div>
+          <p>Deep dive into implementing secure authentication using JWT, handling refresh tokens, and best practices for CORS configuration.</p>
+          <button class="read-more" onclick="readMore('jwt')">Read Article <i class="fas fa-arrow-right"></i></button>
+        </article>
+        <article class="blog-card">
+          <h3>React Architecture Patterns</h3>
+          <div class="blog-meta">
+            <span><i class="fas fa-calendar"></i> April 2025</span>
+            <span><i class="fas fa-tags"></i> React, Architecture</span>
+          </div>
+          <p>Exploring advanced React patterns, component composition, and state management strategies for scalable applications.</p>
+          <button class="read-more" onclick="readMore('react')">Read Article <i class="fas fa-arrow-right"></i></button>
+        </article>
+      </div>
+    </section>
+
+    <section id="certificates" class="section-container">
+      <h2 class="section-title">Achievements & Certifications</h2>
+      <div class="certificates-grid">
+        <div class="certificate-card">
+          <i class="fas fa-certificate"></i>
+          <h3>Full Stack Development</h3>
+          <p>Innomatics Research Labs</p>
+          <span class="date">April–May 2025</span>
+        </div>
+        <div class="certificate-card">
+          <i class="fas fa-award"></i>
+          <h3>Java Programming</h3>
+          <p>NPTEL Certification</p>
+          <span class="date">2025</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-container">
+      <h2 class="section-title">Let's Connect</h2>
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:sunkarasai@example.com">sunkarasai@example.com</a>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/sunkara-sai-prasanthi-23b9aa328/" target="_blank">Sai Prasanthi Sunkara</a>
+          </div>
+        </div>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn-submit">Send Message <i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="modern-footer">
+    <div class="footer-content">
+      <p>&copy; 2025 Sunkara Sai. Crafted with <i class="fas fa-heart"></i> and lots of coffee</p>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
